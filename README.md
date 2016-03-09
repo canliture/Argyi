@@ -10,3 +10,7 @@ Range Analysis Based Integer Error Fixing (RABIEF for short) framework to automa
 
 Argyi is also the prototype tool for the paper "RABIEF: A Framework for Automatic C Integer Error Fixing"
 
+Why it is called "Argyi"
+------------------------
+This name is inspired by the name of a plant *Artemisia argyi*, the Chinese mugwort, which is s strongly aromatic and has medical effects.
+
