@@ -14,3 +14,12 @@ Why it is called "Argyi"
 ------------------------
 This name is inspired by the name of a plant *Artemisia argyi*, the Chinese mugwort, which is s strongly aromatic and has medical effects.
 
+Requirements
+------------
+OS: Linux distributions (Ubuntu 14.04 LTS is recommended)
+
+[GCC](https://gcc.gnu.org/): the GNU Compiler Collection (our experiments are based on v5.2.1)
+
+[CIL](https://www.cs.berkeley.edu/~necula/cil/): Infrastructure for C Program Analysis and Transformation (v1.3.7)
+
+[Z3](https://github.com/Z3Prover/z3): Z3 Theorem Prover (v4.4.2)
