@@ -6,18 +6,20 @@ public class IntErrorFix {
 	
 	/**
 	 * In the future version, this is a customizable parameter.
+	 * TODO: Please specify a valid path!
 	 */
-	private static String fileNameWithoutExt = "/home/cxcfan/Research/IntFix/metadata/";
+	private static String fileNameWithoutExt = "path/to/analysis/metadata";
 	/**
 	 * This is the location of CPAchecker.
 	 * We can invoke CPAchecker by a shell script
+	 * TODO: Please specify a valid path!
 	 */
-	private static String cpacheckerLocation = "/home/cxcfan/Research/IntFix/cpachecker/scripts/cpa.sh";
+	private static String cpacheckerLocation = "path/to/cpachecker/script/location";
 	/**
 	 * This is temporary. In the future version, the file name should not be fixed in program.
+	 * TODO: Please specify a valid path!
 	 */
-	private static String tuDir = false ? "/home/cxcfan/Research/IntFix/Benchmark/Juliet/testcases/CWE680_Integer_Overflow_to_Buffer_Overflow/" :
-		"/home/cxcfan/Research/IntFix/Benchmark/bench/";
+	private static String tuDir = "path/to/cil/files/to/be/analyzed";
 	
 	private static String sh = "bash";
 	private static int heapSize = 4000;
