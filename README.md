@@ -12,11 +12,11 @@ Argyi is also the prototype tool for the paper "RABIEF: A Framework for Automati
 
 Why it is called "Argyi"
 ------------------------
-This name is inspired by the name of a plant *Artemisia argyi*, the Chinese mugwort, which is s strongly aromatic and has medical effects.
+This name is inspired by the name of a plant *Artemisia argyi*, the Chinese mugwort, which is strongly aromatic and has medical effects.
 
 Requirements
 ------------
-OS: Linux distributions (Ubuntu 14.04 LTS is recommended)
+OS: Linux distributions ([Ubuntu 14.04 LTS](http://www.ubuntu.com/download/desktop) is recommended)
 
 [GCC](https://gcc.gnu.org/): the GNU Compiler Collection (our experiments are based on v5.2.1)
 
