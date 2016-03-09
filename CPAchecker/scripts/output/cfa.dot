@@ -1,0 +1,80 @@
+digraph CFA {
+6 [shape="circle" label="N6\n19"]
+25 [shape="circle" label="N25\n18"]
+26 [shape="circle" label="N26\n17"]
+27 [shape="circle" label="N27\n16"]
+28 [shape="circle" label="N28\n15"]
+7 [shape="circle" label="N7\n14"]
+8 [shape="circle" label="N8\n13"]
+9 [shape="circle" label="N9\n12"]
+10 [shape="circle" label="N10\n11"]
+11 [shape="circle" label="N11\n10"]
+12 [shape="circle" label="N12\n9"]
+1 [shape="circle" label="N1\n3"]
+2 [shape="circle" label="N2\n2"]
+3 [shape="circle" label="N3\n1"]
+0 [shape="circle" label="N0\n0"]
+13 [shape="circle" label="N13\n8"]
+14 [shape="diamond" label="N14\n7"]
+17 [shape="circle" label="N17\n6"]
+20 [shape="circle" label="N20\n5"]
+22 [shape="circle" label="N22\n2"]
+23 [shape="circle" label="N23\n1"]
+5 [shape="circle" label="N5\n0"]
+16 [shape="circle" label="N16\n4"]
+18 [shape="circle" label="N18\n3"]
+node [shape="circle"]
+subgraph cluster_calcPlus {
+label="calcPlus()"
+1 -> 2 [label="Function start dummy edge
+BlankEdge"]
+2 -> 3 [label="a = a + 1;
+StatementEdge"]
+3 -> 0 [label="return (long)(a >> 2);
+ReturnStatementEdge"]}
+subgraph cluster_main {
+label="main()"
+6 -> 25 [label="INIT GLOBAL VARS
+BlankEdge"]
+25 -> 26 [label="int control = 2147483647;
+DeclarationEdge"]
+26 -> 27 [label="long int calcPlus(int a);
+DeclarationEdge"]
+27 -> 28 [label="int main();
+DeclarationEdge"]
+28 -> 7 [label="Function start dummy edge
+BlankEdge"]
+7 -> 8 [label="int __INTFIX_MAINRET = 0;
+DeclarationEdge"]
+8 -> 9 [label="int c;
+DeclarationEdge"]
+9 -> 10 [label="long d;
+DeclarationEdge"]
+10 -> 11 [label="long tmp;
+DeclarationEdge"]
+11 -> 12 [label="c = control + 2;
+StatementEdge"]
+12 -> 13 [label="tmp = calcPlus(c * c);
+CallToReturnEdge" style="dotted" arrowhead="empty"]
+13 -> 14 [label="d = tmp;
+StatementEdge"]
+14 -> 16 [label="[d > 0L]
+AssumeEdge"]
+14 -> 17 [label="[!(d > 0L)]
+AssumeEdge"]
+17 -> 20 [label="__INTFIX_MAINRET = 1;
+StatementEdge"]
+20 -> 22 [label="Goto: __retpos_main
+BlankEdge"]
+22 -> 23 [label="Label: __retpos_main
+BlankEdge"]
+23 -> 5 [label="return __INTFIX_MAINRET;
+ReturnStatementEdge"]
+16 -> 18 [label="__INTFIX_MAINRET = 0;
+StatementEdge"]
+18 -> 22 [label="Goto: __retpos_main
+BlankEdge"]}
+12 -> 1 [label="calcPlus(c * c)
+FunctionCallEdge"]
+0 -> 13 [label="Return edge from calcPlus to main
+FunctionReturnEdge"]}

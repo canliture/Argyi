@@ -1,0 +1,8 @@
+main::__INTFIX_MAINRET	6
+main::tmp	0
+calcPlus::a	0
+control	0
+main::__retval__	6
+main::d	0
+main::c	0
+calcPlus::__retval__	0

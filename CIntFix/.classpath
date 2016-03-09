@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/apron.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/edu.cmu.sei.rtss.jldd.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/gmp.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/jpl.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/jsylvan.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/meconsole010.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/build/annotations.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/build/ant-junit.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/build/error_prone_annotations.jar" sourcepath="/CPAchecker/lib/java-contrib/error_prone_annotations-sources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/build/error_prone_ant.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/build/ivy.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/build/java-cup.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/build/jflex.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/common.jar" sourcepath="/CPAchecker/lib/java-contrib/common-sources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/guava.jar" sourcepath="/CPAchecker/lib/java-contrib/guava-sources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/icu4j.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/java-cup-runtime.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/javabdd.jar" sourcepath="/CPAchecker/lib/java-contrib/javabdd-sources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.cdt.core.jar" sourcepath="/CPAchecker/lib/java-contrib/org.eclipse.cdt.core-sources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.core.contenttype.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.core.jobs.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.core.resources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.core.runtime.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.equinox.common.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.equinox.preferences.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.jdt.core.jar" sourcepath="/CPAchecker/lib/java-contrib/org.eclipse.jdt.core-sources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/org.eclipse.osgi.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/princess.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/scala-actors.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/scala-library.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/smt-parser.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/runtime/smtinterpol-comp.jar" sourcepath="/CPAchecker/lib/java-contrib/smtinterpol-sources.zip"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/test/guava-testlib.jar" sourcepath="/CPAchecker/lib/java-contrib/guava-testlib-sources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/test/guava.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/test/hamcrest-core.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/test/jsr305.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/test/junit.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/test/mockito-core.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/test/objenesis.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/java/test/truth.jar" sourcepath="/CPAchecker/lib/java-contrib/truth-sources.jar"/>
+	<classpathentry kind="lib" path="/CPAchecker/bin"/>
+	<classpathentry kind="lib" path="/CPAchecker/lib/json-20150729.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,92 @@
+AutomatonAnalysis (AssertionAutomaton) statistics
+-------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.003s
+Automaton transfers with branching:                0
+Automaton transfer successors:                           21 (count: 21, min: 1, max: 1, avg: 1.00) [1 x 21]
+
+AutomatonAnalysis (ErrorLabelAutomaton) statistics
+--------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.000s
+Automaton transfers with branching:                0
+Automaton transfer successors:                           21 (count: 21, min: 1, max: 1, avg: 1.00) [1 x 21]
+
+AutomatonAnalysis (TerminatingFunctions) statistics
+---------------------------------------------------
+Number of states:                                  1
+Total time for successor computation:                  0.001s
+Automaton transfers with branching:                0
+Automaton transfer successors:                           21 (count: 21, min: 1, max: 1, avg: 1.00) [1 x 21]
+
+CPA algorithm statistics
+------------------------
+Number of iterations:            22
+Max size of waitlist:            1
+Average size of waitlist:        1
+Number of computed successors:   21
+Max successors for one state:    1
+Number of times merged:          0
+Number of times stopped:         0
+Number of times breaked:         0
+
+Total time for CPA algorithm:         0.145s (Max:     0.145s)
+  Time for choose from waitlist:      0.001s
+  Time for precision adjustment:      0.007s
+  Time for transfer relation:         0.127s
+  Time for stop operator:             0.000s
+  Time for adding to reached set:     0.000s
+
+Code Coverage
+-----------------------------
+  Function coverage:      1.000
+  Visited lines:          10
+  Total lines:            7
+  Line coverage:          1.429
+  Visited conditions:     1
+  Total conditions:       2
+  Condition coverage:     0.500
+
+CPAchecker general statistics
+-----------------------------
+Number of program locations:     24
+Number of CFA edges:             24
+Number of relevant variables:    6
+Number of functions:             2
+Number of loops:                 0
+Size of reached set:             22
+  Number of reached locations:   22 (92%)
+    Avg states per location:     1
+    Max states per location:     1 (at node N0)
+  Number of reached functions:   2 (100%)
+  Number of partitions:          22
+    Avg size of partitions:      1
+    Max size of partitions:      1
+  Number of target states:       0
+
+Time for analysis setup:          2.678s
+  Time for loading CPAs:          0.870s
+  Time for loading parser:        0.451s
+  Time for CFA construction:      0.505s
+    Time for parsing file(s):     0.276s
+    Time for AST to CFA:          0.111s
+    Time for CFA sanity check:    0.003s
+    Time for post-processing:     0.038s
+      Time for var class.:        0.000s
+    Time for CFA export:          0.916s
+Time for Analysis:                0.146s
+CPU time for analysis:            0.070s
+Total time for CPAchecker:        2.845s
+Total CPU time for CPAchecker:    3.110s
+
+Time for Garbage Collector:       0.023s (in 1 runs)
+Garbage Collector(s) used:    PS MarkSweep, PS Scavenge
+Used heap memory:                 81MB (    77 MiB) max;     48MB (    46 MiB) avg;     96MB (    92 MiB) peak
+Used non-heap memory:             21MB (    20 MiB) max;     17MB (    16 MiB) avg;     22MB (    21 MiB) peak
+Used in PS Old Gen pool:           0MB (     0 MiB) max;      0MB (     0 MiB) avg;      0MB (     0 MiB) peak
+Allocated heap memory:           315MB (   301 MiB) max;    315MB (   301 MiB) avg
+Allocated non-heap memory:        22MB (    21 MiB) max;     17MB (    16 MiB) avg
+Total process virtual memory:   6878MB (  6559 MiB) max;   6843MB (  6526 MiB) avg
+
+Verification result: TRUE. No property violation found by chosen configuration.
+More details about the verification run can be found in the directory "./output".
