@@ -8,7 +8,7 @@ In general, they are covered by CWE190, 191, 194, 195, 196, 197 and 680. The cor
 Therefore, we can effectively locate and fix integer errors by inference of possible values for program expressions. Based on this insight, we design a framework
 Range Analysis Based Integer Error Fixing (RABIEF for short) framework to automate C integer error fixing.
 
-Argyi is also the prototype tool for the paper "RABIEF: A Framework for Automatic C Integer Error Fixing"
+Argyi is also the prototype tool for the paper "RABIEF: Range Analysis Based Integer Error Fixing"
 
 Why it is called "Argyi"
 ------------------------
